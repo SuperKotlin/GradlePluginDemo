@@ -1,0 +1,30 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+
+    implementation 'com.android.tools.build:gradle:3.6.1'
+    implementation 'org.javassist:javassist:3.24.0-GA'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+//设置插件的GAV参数
+group = 'com.zhuyong.myplugin'
+archivesBaseName = 'MyPlugin'
+version = '1.0.0'
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            //在当前同级目录下生成maven包
+            repository(url: uri('repository'))
+        }
+    }
+}
