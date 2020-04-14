@@ -7,4 +7,4 @@
 
 [Gradle系列 (中篇) —在自定义Gradle插件中使用javassist往class中注入代码](https://www.jianshu.com/p/ec594c709b23)
 
-[Gradle系列 (下篇) —在Android Library中依赖自定义Gradle插件并往class中注入代码(暂未发布)](https://www.jianshu.com/p/ec594c709b23)
+[Gradle系列 (下篇) —在Android Library中依赖自定义Gradle插件并往class中注入代码](https://www.jianshu.com/p/8844e7392625)
